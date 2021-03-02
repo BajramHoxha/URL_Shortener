@@ -1,0 +1,42 @@
+#Page-container {
+	padding-top: $distance * 12;
+}
+
+@media (max-width: 767px) {
+  #Page-container {
+  	padding-top: $distance * 3;
+  }
+}
+.container-fluid {
+    padding:0px;
+}
+.navbar {
+  padding-left:100px;
+  min-height:90px;
+}
+.main-container {
+    font-family: "PT Sans",Sans,Arial;
+    font-size: 18px;
+    background: #9d979e url(https://tiny.cc/public/images/pattern.png);
+    background-size: 100px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    min-height:600px;
+}
+.form-container {
+    background: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin:20px;
+}
+.url-shortener-headline {
+    font-size: 28px;
+    color: #4c4c4c;
+    text-align: center;
+    font-weight: 600;
+}
+.result-link {
+
+}
+
