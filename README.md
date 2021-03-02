@@ -1,7 +1,7 @@
-##Fastly URL shortener
+## Fastly URL shortener
 The goal of this exercise is to create a URL shortener web application in the same vein as bitly, TinyURL, or the now defunct Google URL Shortener.
 
-##REQUIREMENTS
+## REQUIREMENTS
 Application Requirements
 
 When navigating to the root path (e.g. http://localhost:8080/) of the app in a browser a user should be presented with a form that allows them to paste in a (presumably long) URL (e.g. https://www.google.com/search?q=url+shortener&oq=google+u&aqs=chrome.0.69i59j69i60l3j0j69i57.1069j0j7&sourceid=chrome&ie=UTF-8).
@@ -11,7 +11,7 @@ When a user navigates to a shortened URL that they have been provided by the app
 
 Only allow valid URLs (e.g., start with http(s)://{domain}/ )
  
-###Built With
+### Built With
 * [Bootstrap](https://getbootstrap.com)
 * [Django](https://www.djangoproject.com/)
 * [React](https://reactjs.org/)
@@ -24,7 +24,7 @@ React Native combines the advantages of native development with React and its be
 This architecture (that separates the front from the back-end) allows a better decoupling of them both, with teams that can develop in their domains completely independently.
 React Native and Django pair well due mostly to their ability to quickly generate cross-platform apps, the ease of hiring for each framework, and the large amount of institutional support that each enjoys. 
 
-##Deliverables
+## Deliverables
 Implement your solution, including test cases for your application code.
 We will execute your code using either:
 - `the make targets specified in Makefile (download this file). 
@@ -35,9 +35,9 @@ Please put your instructions in notes.txt how to setup, run, and test your appli
 E-mail the point of contact that sent you this exercise and include a link to a public GitHub (or GitLab) repository. 
 Note: if your github account is monitored or the like, then simply create a new github account for this submission.`
 
-##Getting Started
+## Getting Started
 
-###Running
+### Running
 1. `docker-compose build`
 1. `docker-compose up`
 
@@ -45,7 +45,7 @@ Alternatively, you can run them separately:
 1. `Backend: python manage.py runserver`
 2. `Frontend: npm start`
 
-###Tests
+### Tests
 1. `Backend: python manage.py test`
 2. `Frontend: yarn test`
  
