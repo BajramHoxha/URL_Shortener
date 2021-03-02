@@ -11,34 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e80f6161-7053-46d6-a1c4-f59f0824ca21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/URL_Shortener.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/URL_Project/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/frontend/src/components/Form.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
@@ -52,7 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/frontend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oyk5L6sYatvnXWW6q6slZ3ll5n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
