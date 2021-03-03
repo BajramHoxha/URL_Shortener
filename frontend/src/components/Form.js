@@ -5,12 +5,18 @@ export default class Form extends Component {
         super();
         this.state = {
             unique_url: null,
-            original_url: null
+            original_url: null,
+            show_success_message: false
         }
     }
 
     handleLongURLChange = (event) => {
-        this.setState({original_url: event.target.value});
+        this.setState({
+        original_url: event.target.value,
+        })
+        this.setState({
+        button_state: event.target.value
+        })
     }
 
     handleSubmit = (event) => {
@@ -24,7 +30,7 @@ export default class Form extends Component {
             .then(response => response.json())
             .then(json => {
                 this.setState({
-                    unique_url: json['link']
+                    unique_url: json['link'],
                 });
             }
         );
@@ -38,6 +44,7 @@ render() {
                 <div className="form-group mb-4">
                     <label htmlFor="original_url">Type your url:</label>
                     <input
+                        value={this.state.original_url || ''}
                         className="form-control"
                         type="text"
                         aria-label="original_url"
@@ -46,10 +53,14 @@ render() {
                         placeholder="Type url"
                         required/>
                 </div>
+                /* Render the message after the async call */
                 <div className="alert-success result-link" role="alert">
-                    {this.state.unique_url}
+                   { this.state && this.state.unique_url &&
+                       <div className="SuccessMessage">Shorten URL: {this.state.unique_url}</div>
+                   }
                 </div>
-                <button title="submitButton" type="submit" className="btn btn-primary">Short Url</button>
+                /* Disable the button until the input has some value */
+                <button disabled={!this.state.button_state} title="submitButton" type="submit" className="btn btn-primary">Short Url</button>
             </form>
 	    )
     }

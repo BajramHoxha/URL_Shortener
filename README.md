@@ -88,5 +88,9 @@ When you make any changes to the backed models, please upgrade the DB using the 
 
 1. python manage.py makemigrations backend
 2. python manage.py migrate
- 
+
+## TODO: CI/CD
+Now that we have set up our Test cases for our Django backend application and frontend, and have Dockerized our application, the last step is to set up our **CI/CD** pipeline using **CircleCI**, a widely used shared continuous integration and continuous delivery (CI/CD) platform.
+
+Docs: https://circleci.com/blog/continuous-integration-for-django-projects/
 
