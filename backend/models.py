@@ -33,7 +33,7 @@ class URLShortenerModel(models.Model):
     expiration_datetime = models.DateTimeField(
         default=generate_expiration_datetime
     )
-    original_url = models.URLField(validators=[schema_validate])
+    original_url = models.URLField(max_length=500, validators=[schema_validate])
     access_limit = models.PositiveSmallIntegerField(null=True, blank=True)
     access_counter = models.PositiveSmallIntegerField(default=0, editable=False)
     is_active = models.BooleanField(default=True)
