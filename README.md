@@ -1,7 +1,8 @@
 ## Project: URL Shortener
 
 The goal of this exercise is to create a URL shortener web application in the same vein as bitly, TinyURL, or the now defunct Google URL Shortener.
-Project Setup
+
+## Project Setup
 
 Clone the repository:
 git clone https://github.com/BajramHoxha/URL_Shortener.git
@@ -59,7 +60,8 @@ Within the Root project directory, create a file and name it as **.env.dev** wit
     POSTGRES_PORT=5432
 
 Inside Frontend directory, create another file called **.env** with the following content:
-- SKIP_PREFLIGHT_CHECK=true
+   
+    SKIP_PREFLIGHT_CHECK=true
 
 ## Running
 1. docker-compose build
